@@ -1,0 +1,80 @@
+#project-container{
+    float: left;
+    width: 90%;
+    height: 30em;
+    background-color: white;
+    margin: 5%;
+    margin-top: 35%;
+}
+
+#photography-display-container{
+    float: inherit;
+    position: relative;
+    width: 65%;
+    height: 100%;
+}
+
+#photography-display-image-wrapper img{
+    float: left;
+    width: 100%;
+    height: auto;
+}
+
+#photography-display-info-container{
+    float: left;
+    width: 100%;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+}
+
+
+#photography-content-container{
+    float: inherit;
+    width: 35%;
+    height: 100%;
+    background-color: darkgrey;
+}
+
+#photography-content-container-header{
+    float: inherit;
+    width: 100%;
+    height: 20%;
+    background-color: lime;
+}
+
+#photography-content-container-body{
+        float: inherit;
+        width: 100%;
+        height: 60%;
+        background-color: purple;
+}
+
+#photography-container-button{
+    float: inherit;
+    width: 100%;
+    height: 20%;
+    background-color: maroon;
+}
+
+#photography-button-wrapper{
+    position: relative;
+    width: max-content;
+    height: max-content;
+    background-color: red;
+    /*Vertically align button*/
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*Horizaontally align button*/
+    display: grid;
+    margin:0 auto;
+}
+
+#photography-nav-button{
+    font-size: 20px;
+    font-family: 'Courier New', monospace;
+}

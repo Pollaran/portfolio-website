@@ -1,0 +1,115 @@
+/*Inherits .home-body from style.css*/
+#contact-welcome{
+    z-index: 1;
+    margin-top: 20em;
+    margin-left: 10em;
+
+    font-family: 'Courier New', monospace;
+}
+
+#contact-welcome-one{
+    font-size: 32px;
+    display: inline-block;
+    float: inherit;
+    margin-left: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#contact-welcome-two{
+    font-size: 70px;
+    display: inline-block;
+    float: inherit;
+    padding-left: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#contact-welcome-three{
+    font-size: 18px;
+    display: block;
+    float: inherit;
+    margin-left: 10em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#contact-welcome-four{
+    font-size: 18px;
+    float: inherit;
+    margin-left: 10em;
+    margin-bottom: 20em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1em;
+
+}
+
+#contact-container{
+    float: left;
+    margin-top: 5em;
+    width: 100%;
+    height: 35em;
+    background-color: white;
+    margin-bottom: 5%;
+}
+
+#contact-container-header{
+    float: inherit;
+    background-color: maroon;
+    width: 100%;
+    height: 20%;
+    text-align: center;
+    font-size: 56px;
+}
+
+#contact-header-text{
+    display: inline-block;
+    margin-top: 0.3em;
+}
+
+#contact-container-body{
+    float: inherit;
+    background-color: purple;
+    width: 100%;
+    height: 55%;
+}
+
+#contact-body-text-wrapper{
+    width: 90%;
+    height: 80%;
+    background-color: darkblue;
+    color: white;
+    font-size: 45px;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    text-align: center;
+}
+
+#contact-container-mailbutton{
+    float: inherit;
+    background-color: lime;
+    width: 100%;
+    height: 25%;
+    margin: auto;
+}
+
+#contact-button-wrapper{
+    position: relative;
+    width: 100%;
+    background-color: red;
+    text-align: center;
+    /*Vertically align button*/
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    /*Horizaontally align button*/
+    display: inline-block;
+    margin:0 auto;
+}
+
+#contact-mailto-button{
+    font-size: 58px;
+}

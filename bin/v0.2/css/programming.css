@@ -1,0 +1,55 @@
+.programming-body{
+    float: left;
+    position: relative;
+    top: 0;
+    margin-left: 5%;
+    background-color: pink;
+    width: 90%;
+}
+
+#programming-welcome{
+    z-index: 1;
+    margin-top: 15em;
+    float: left;
+    font-family: 'Courier New', monospace;
+}
+
+#programming-welcome-one{
+    font-size: 32px;
+    display: inline-block;
+    float: inherit;
+    margin-left: 5em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-left: 5em;
+    padding-right: 5em;
+}
+
+#programming-welcome-two{
+    font-size: 70px;
+    display: inline-block;
+    float: inherit;
+    padding-left: 2em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#programming-welcome-three{
+    font-size: 18px;
+    display: block;
+    float: inherit;
+    margin-left: 10em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+
+#programming-welcome-four{
+    font-size: 18px;
+    float: inherit;
+    margin-left: 10em;
+    margin-bottom: 20em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    padding-right: 1em;
+
+}

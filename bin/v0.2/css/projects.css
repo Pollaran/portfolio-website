@@ -1,0 +1,15 @@
+#projects-home{
+    margin-top: 15em;
+}
+
+#project-one, #project-two, #project-three, #project-four{
+    float:  left;
+    z-index: 1;
+    width: 15em;
+    height: 15em;
+    background-color: white;
+    margin-left: 9.8em;
+    margin-right: 7.8em;
+    margin-top: 7.8em;
+    margin-bottom: 7.8em;
+}
